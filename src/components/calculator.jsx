@@ -23,7 +23,7 @@ export function Calculadora() {
 
     let years = hoje.getFullYear() - nascimento.getFullYear();
     let months = hoje.getMonth() - nascimento.getMonth();
-    let days = hoje.getDay() - nascimento.getDay();
+    let days = hoje.getDate() - nascimento.getDate();
 
     setYear("");
     setMonth("");
