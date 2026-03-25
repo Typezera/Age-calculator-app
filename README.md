@@ -1,18 +1,64 @@
-# React + Vite
+📅 Age Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação desenvolvida com o objetivo de calcular a idade do usuário com base na data de nascimento informada.
 
-Currently, two official plugins are available:
+🚀 Tecnologias utilizadas
+⚛️ React
+🎨 Tailwind CSS
+🟨 JavaScript
+💡 Funcionalidades
+Inserir:
+Dia
+Mês
+Ano
+Calcular idade automaticamente ao enviar o formulário
+Exibir:
+Anos
+Meses
+Dias
+Interface simples e responsiva
+🧠 Lógica aplicada
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A aplicação utiliza o objeto Date do JavaScript para:
 
-## React Compiler
+Capturar a data atual
+Comparar com a data de nascimento
+Ajustar diferenças negativas de dias e meses
+Retornar a idade corretamente em anos, meses e dias
+📸 Preview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+<img width="764" height="643" alt="image" src="https://github.com/user-attachments/assets/d1ede0dc-e3ab-4acc-ae6f-4ca2a88aef77" />
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+⚙️ Como executar o projeto
+# Clone o repositório
+git clone https://github.com/Typezera/Age-calculator-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Acesse a pasta
+cd seu-repo
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+📁 Estrutura
+src/
+ ├── assets/
+ ├── components/
+ │    └── Calculadora.jsx
+ ├── App.jsx
+ └── main.jsx
+🎯 Objetivo
+Este projeto foi desenvolvido com foco em prática de:
+
+Manipulação de estado com React (useState)
+Criação de formulários controlados
+Lógica de cálculo com datas
+Estilização com Tailwind CSS
+📌 Observações
+O cálculo de dias utiliza uma aproximação de 30 dias por mês
+Projeto desenvolvido para fins de estudo e prática
+👨‍💻 Autor
+
+Desenvolvido por mim 🚀
